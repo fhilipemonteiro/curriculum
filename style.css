@@ -1,0 +1,149 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+}
+
+header{
+  background-color: #B26241;
+  width: 30%;
+  height: 100%;
+  float: left;
+}
+
+main{
+  background-color: #FFFFFF;
+  width: 70%;
+  height: 100%;
+  float: right;
+}
+
+.container-header{
+  position: relative;
+  width: 80%;
+  height: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container-internal{
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+#profile-picture{
+  width: 80%;
+  border-radius: 50%;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-bottom:5%;
+  border: 5px solid rgba(255, 255, 255, 0.7);
+}
+
+.container-header ul{
+  list-style: none;
+  text-align: center;
+  width: 100%;
+}
+
+.container-header ul li{
+  margin-top: 5%;
+}
+
+.container-header ul li a{
+  color: rgba(255, 255, 255, 0.7);
+}
+
+#selected{
+  color: #FFFFFF;
+}
+
+.container-main{
+  position: absolute;
+  width: 50%;
+  top: 50%;
+  transform: translatey(-50%);
+  margin-left: 5%;
+}
+
+.full-name{
+  margin-bottom: 2%;
+  font-size: 30px;
+}
+
+.first-name{
+  color: #4B5056;
+}
+
+.last-name{
+  color: #B26241;
+}
+
+.adress{
+  color: #4B5056;
+  margin-bottom: 5%;
+  font-size: 20px;
+}
+
+.email a{
+  color: #B26241;
+}
+
+.description{
+  color: #4B5056;
+  margin-bottom: 5%;
+  font-size: 20px;
+}
+
+.social-media img{
+  width: 70%;
+}
+
+.social-media a{
+  display: inline-block;
+}
+
+.social-media a:last-child{
+  margin-left: 1%;
+}
+
+.container-main-knowledge{
+  position: absolute;
+  margin-left: 5%;
+  top: 50%;
+  transform: translatey(-50%);
+}
+
+.container-main-knowledge h2{
+  color: #4B5056;
+  font-size: 30px;
+}
+
+.container-main-knowledge h2:not(:last-child){
+  margin-bottom: 5%;
+}
+
+.main-container-objectives{
+  position: relative;
+  width: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 5%;
+}
+
+.main-container-objectives h2{
+  color: #4B5056;
+  font-size: 30px;
+  margin-bottom: 5%;
+}
